@@ -1,38 +1,64 @@
-# 🚀 Cara Pasang Profile README ke GitHub
+# 🚀 Cara Publish Profile README
 
-Ikuti langkah ini pelan-pelan. Kalau bingung, tanya aja.
+Repo ini sudah di-`git init` dan semua file (termasuk `.github/` dan `assets/`)
+sudah ke-commit. Kamu tinggal push. Ada 2 cara:
 
-## 1. Buat repo spesial
-1. Buka https://github.com/new
-2. **Repository name** harus PERSIS sama dengan username kamu: `KevinDarrell`
-3. Set ke **Public**
-4. Centang **"Add a README file"**
-5. Klik **Create repository**
+---
 
-> GitHub akan kasih notif "You found a secret!" — itu tandanya nama repo-nya benar. ✅
+## Opsi A — Push via Terminal (paling cepat, direkomendasikan)
 
-## 2. Upload file
-Cara paling gampang (tanpa command line):
-1. Di repo `KevinDarrell`, klik **Add file → Upload files**
-2. Upload isi folder ini: `README.md`
-3. Untuk workflow snake: klik **Add file → Create new file**, lalu ketik nama file:
-   `.github/workflows/snake.yml`
-   (GitHub otomatis bikin foldernya). Paste isi file `snake.yml`, lalu commit.
+1. Buat repo KOSONG di GitHub: https://github.com/new
+   - **Repository name** harus PERSIS username kamu: `KevinDarrell`
+   - Set **Public**
+   - JANGAN centang "Add a README" / .gitignore / license (biarkan kosong)
+   - Create repository
 
-## 3. Aktifkan Snake Animation 🐍
-1. Di repo, buka tab **Actions**
-2. Kalau ada tombol "I understand my workflows, enable them", klik.
-3. Pilih workflow **"Generate Snake Animation"** → klik **Run workflow**
-4. Tunggu ±1 menit sampai hijau ✅. Ini bikin branch baru bernama `output`.
-5. Snake bakal langsung muncul di profil kamu. Setelah ini otomatis update tiap hari.
+2. Di folder ini, jalankan (ganti URL kalau pakai SSH):
+   ```bash
+   git remote add origin https://github.com/KevinDarrell/KevinDarrell.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-> Kalau workflow gagal soal permission: buka **Settings → Actions → General → Workflow permissions** → pilih **Read and write permissions** → Save → jalankan ulang.
+Selesai. Buka https://github.com/KevinDarrell 🎉
 
-## 4. Yang WAJIB kamu edit di README.md
-- 🔗 Ganti `YOUR-LINKEDIN` dengan handle LinkedIn kamu (lihat bagian "Let's Connect").
-- 🛠️ Sesuaikan **Tech Stack** dengan tools yang benar-benar kamu kuasai.
-  Ikonnya dari https://skillicons.dev — tinggal ubah daftar setelah `?i=`.
-  Daftar lengkap kode ikon: https://skillicons.dev
+---
 
-## Selesai! 🎉
-Buka https://github.com/KevinDarrell untuk lihat hasilnya.
+## Opsi B — Upload manual (tanpa terminal)
+
+1. Buat repo `KevinDarrell` (Public) + centang "Add a README file".
+2. **Add file → Upload files** → drag `README.md`.
+3. Bikin file `assets/header.svg` → **Add file → Create new file**, ketik
+   `assets/header.svg`, paste isinya, commit.
+4. Bikin `.github/workflows/snake.yml` dengan cara yang sama.
+
+---
+
+## Aktifkan Snake Animation 🐍  (WAJIB biar snake muncul)
+
+Snake butuh GitHub Actions yang jalan sekali dulu:
+
+1. Di repo → tab **Actions**. Kalau ada tombol enable workflows, klik.
+2. Pilih **"Generate Snake Animation"** → **Run workflow**.
+3. Tunggu ±1 menit (centang hijau ✅). Ini bikin branch `output`.
+4. Refresh profil — snake monochrome langsung muncul. Update otomatis tiap hari.
+
+> Gagal soal permission? Buka **Settings → Actions → General →
+> Workflow permissions** → pilih **Read and write permissions** → Save →
+> jalankan ulang workflow-nya.
+
+---
+
+## ✏️ 2 hal yang WAJIB kamu edit
+
+1. **LinkedIn** — di `README.md` bagian `▸ CONNECT`, ganti `YOUR-LINKEDIN`
+   dengan handle-mu. Contoh: URL `linkedin.com/in/kevin-darrell` → tulis `kevin-darrell`.
+2. **STACK** — sesuaikan badge dengan tools yang benar-benar kamu kuasai.
+   Tambah/hapus badge tinggal copy satu baris. Nama logo: https://simpleicons.org
+
+---
+
+## Mau ganti isi header (nama/tagline/chip)?
+
+Edit `assets/header.svg` — teksnya jelas kok: cari `KEVIN DARRELL`,
+`SOFTWARE ENGINEER`, `I build systems that think`, dan chip `SYSTEMS/BACKEND/SCALE`.
