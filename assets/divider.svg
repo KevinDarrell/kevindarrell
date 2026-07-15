@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 28" width="900" height="28" role="img" aria-label="section divider">
+  <!-- base rule -->
+  <rect x="0" y="13" width="900" height="2" fill="#2b2b2b"/>
+
+  <!-- faint measure ticks -->
+  <g fill="#3a3a3a">
+    <rect x="150" y="10" width="2" height="8"/>
+    <rect x="300" y="10" width="2" height="8"/>
+    <rect x="450" y="10" width="2" height="8"/>
+    <rect x="600" y="10" width="2" height="8"/>
+    <rect x="750" y="10" width="2" height="8"/>
+  </g>
+
+  <!-- solid end caps -->
+  <rect x="0" y="7" width="12" height="14" fill="#fafafa"/>
+  <rect x="888" y="7" width="12" height="14" fill="#fafafa"/>
+
+  <!-- scanning highlight -->
+  <rect y="12" width="80" height="4" fill="#fafafa">
+    <animate attributeName="x" values="20;800;20" dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+  </rect>
+</svg>
