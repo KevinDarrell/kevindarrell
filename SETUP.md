@@ -58,7 +58,12 @@ Snake butuh GitHub Actions yang jalan sekali dulu:
 
 ---
 
-## Mau ganti isi header (nama/tagline/chip)?
+## Mau ganti isi header / footer?
 
-Edit `assets/header.svg` — teksnya jelas kok: cari `KEVIN DARRELL`,
-`SOFTWARE ENGINEER`, `I build systems that think`, dan chip `SYSTEMS/BACKEND/SCALE`.
+- **Header** → edit `assets/header.svg`. Cari teksnya: `KEVIN DARRELL`,
+  `SOFTWARE ENGINEER`, `I build systems that think`, chip `SYSTEMS/BACKEND/SCALE`,
+  dan meta strip `AVAILABLE FOR WORK · BACKEND & SYSTEMS · UTC+7`.
+- **Footer** → edit `assets/footer.svg`. Cari `LET'S BUILD SOMETHING THAT THINKS.`
+
+> Habis edit SVG, kalau mau lihat hasilnya sebelum push, buka file-nya langsung
+> di browser (drag ke tab browser) — animasinya langsung jalan.

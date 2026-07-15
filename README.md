@@ -1,19 +1,21 @@
 <!-- ══════════════════════════════════════════════════════════════════
-     HEADER  —  custom hand-built SVG (assets/header.svg). Nobody else has this.
+     HEADER  ·  custom hand-built animated SVG (assets/header.svg)
      ══════════════════════════════════════════════════════════════════ -->
 <img src="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/header.svg" alt="Kevin Darrell — Software Engineer" width="100%" />
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=KevinDarrell&label=VISITORS&color=0a0a0a&style=for-the-badge" alt="visitors" />
+<p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20COLLAB-fafafa?style=for-the-badge&labelColor=0a0a0a" alt="status" />
+  <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%2F%20SYSTEMS-fafafa?style=for-the-badge&labelColor=0a0a0a" alt="focus" />
+  <img src="https://img.shields.io/badge/BASED%20IN-UTC%2B7-fafafa?style=for-the-badge&labelColor=0a0a0a" alt="location" />
+  <img src="https://komarev.com/ghpvc/?username=KevinDarrell&label=VISITORS&color=0a0a0a&style=for-the-badge" alt="visitors" />
 </p>
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-## ▸ WHOAMI
+## `01` &nbsp; WHOAMI
 
 ```typescript
-const kevin = {
+const kevin: Engineer = {
   role:    "Software Engineer",
   motto:   "I build systems that think.",
   focus:   ["scalable backends", "clean architecture", "system design"],
@@ -21,70 +23,97 @@ const kevin = {
 };
 ```
 
-- Simple on the outside, smart on the inside — that's how I like my systems.
-- Most at home in **backend & infrastructure**, comfortable across the stack.
-- Currently going deep on **distributed systems** and **software architecture**.
+> **Simple on the outside, smart on the inside** — that's how I like my systems.
+> Most at home in **backend & infrastructure**, comfortable across the whole stack,
+> and currently going deep on **distributed systems** & **software architecture**.
+
+<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════
-     TECH STACK  —  ✏️ EDIT to match what you ACTUALLY use.
-     Add/remove a badge by copying a line. Logos: https://simpleicons.org
+     STACK  ·  ✏️ EDIT to match what you ACTUALLY use.
+     Add/remove a badge by copying a line. Logo names: https://simpleicons.org
      ══════════════════════════════════════════════════════════════════ -->
 
-## ▸ STACK
+## `02` &nbsp; STACK
 
-**Languages**
+<table>
+  <tr>
+    <td><b>&nbsp;LANGUAGES&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-fafafa?style=for-the-badge&logo=typescript&logoColor=0a0a0a" alt="TypeScript"/>
+      <img src="https://img.shields.io/badge/JavaScript-fafafa?style=for-the-badge&logo=javascript&logoColor=0a0a0a" alt="JavaScript"/>
+      <img src="https://img.shields.io/badge/Python-fafafa?style=for-the-badge&logo=python&logoColor=0a0a0a" alt="Python"/>
+      <img src="https://img.shields.io/badge/Go-fafafa?style=for-the-badge&logo=go&logoColor=0a0a0a" alt="Go"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>&nbsp;BACKEND&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-0a0a0a?style=for-the-badge&logo=nodedotjs&logoColor=fafafa" alt="Node.js"/>
+      <img src="https://img.shields.io/badge/Express-0a0a0a?style=for-the-badge&logo=express&logoColor=fafafa" alt="Express"/>
+      <img src="https://img.shields.io/badge/NestJS-0a0a0a?style=for-the-badge&logo=nestjs&logoColor=fafafa" alt="NestJS"/>
+      <img src="https://img.shields.io/badge/GraphQL-0a0a0a?style=for-the-badge&logo=graphql&logoColor=fafafa" alt="GraphQL"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>&nbsp;FRONTEND&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-fafafa?style=for-the-badge&logo=react&logoColor=0a0a0a" alt="React"/>
+      <img src="https://img.shields.io/badge/Next.js-fafafa?style=for-the-badge&logo=nextdotjs&logoColor=0a0a0a" alt="Next.js"/>
+      <img src="https://img.shields.io/badge/Tailwind-fafafa?style=for-the-badge&logo=tailwindcss&logoColor=0a0a0a" alt="Tailwind"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>&nbsp;DATA&nbsp;&&nbsp;INFRA&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-0a0a0a?style=for-the-badge&logo=postgresql&logoColor=fafafa" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/MongoDB-0a0a0a?style=for-the-badge&logo=mongodb&logoColor=fafafa" alt="MongoDB"/>
+      <img src="https://img.shields.io/badge/Redis-0a0a0a?style=for-the-badge&logo=redis&logoColor=fafafa" alt="Redis"/>
+      <img src="https://img.shields.io/badge/Docker-0a0a0a?style=for-the-badge&logo=docker&logoColor=fafafa" alt="Docker"/>
+      <img src="https://img.shields.io/badge/AWS-0a0a0a?style=for-the-badge&logo=amazonwebservices&logoColor=fafafa" alt="AWS"/>
+      <img src="https://img.shields.io/badge/Linux-0a0a0a?style=for-the-badge&logo=linux&logoColor=fafafa" alt="Linux"/>
+    </td>
+  </tr>
+</table>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-fafafa?style=for-the-badge&logo=typescript&logoColor=0a0a0a)
-![JavaScript](https://img.shields.io/badge/JavaScript-fafafa?style=for-the-badge&logo=javascript&logoColor=0a0a0a)
-![Python](https://img.shields.io/badge/Python-fafafa?style=for-the-badge&logo=python&logoColor=0a0a0a)
-![Java](https://img.shields.io/badge/Java-fafafa?style=for-the-badge&logo=openjdk&logoColor=0a0a0a)
-![Go](https://img.shields.io/badge/Go-fafafa?style=for-the-badge&logo=go&logoColor=0a0a0a)
-
-**Backend & Frameworks**
-
-![Node.js](https://img.shields.io/badge/Node.js-0a0a0a?style=for-the-badge&logo=nodedotjs&logoColor=fafafa)
-![Express](https://img.shields.io/badge/Express-0a0a0a?style=for-the-badge&logo=express&logoColor=fafafa)
-![NestJS](https://img.shields.io/badge/NestJS-0a0a0a?style=for-the-badge&logo=nestjs&logoColor=fafafa)
-![React](https://img.shields.io/badge/React-0a0a0a?style=for-the-badge&logo=react&logoColor=fafafa)
-![Next.js](https://img.shields.io/badge/Next.js-0a0a0a?style=for-the-badge&logo=nextdotjs&logoColor=fafafa)
-
-**Data & Infra**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-fafafa?style=for-the-badge&logo=postgresql&logoColor=0a0a0a)
-![MongoDB](https://img.shields.io/badge/MongoDB-fafafa?style=for-the-badge&logo=mongodb&logoColor=0a0a0a)
-![Redis](https://img.shields.io/badge/Redis-fafafa?style=for-the-badge&logo=redis&logoColor=0a0a0a)
-![Docker](https://img.shields.io/badge/Docker-fafafa?style=for-the-badge&logo=docker&logoColor=0a0a0a)
-![AWS](https://img.shields.io/badge/AWS-fafafa?style=for-the-badge&logo=amazonwebservices&logoColor=0a0a0a)
-![Linux](https://img.shields.io/badge/Linux-fafafa?style=for-the-badge&logo=linux&logoColor=0a0a0a)
+<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════
-     STATS  —  monochrome themed to match. Auto-updates.
+     METRICS  ·  monochrome-themed, auto-updating
      ══════════════════════════════════════════════════════════════════ -->
 
-## ▸ STATS
+## `03` &nbsp; METRICS
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=KevinDarrell&show_icons=true&count_private=true&hide_border=false&border_color=fafafa&title_color=fafafa&icon_color=fafafa&text_color=b3b3b3&bg_color=0a0a0a" alt="stats" />
-<img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=KevinDarrell&hide_border=false&border=fafafa&background=0a0a0a&stroke=fafafa&ring=fafafa&fire=fafafa&currStreakLabel=fafafa&sideLabels=b3b3b3&dates=808080&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
+<div align="center">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=KevinDarrell&show_icons=true&count_private=true&hide_border=false&border_color=fafafa&title_color=fafafa&icon_color=fafafa&text_color=b3b3b3&bg_color=0a0a0a" alt="stats" />
+  <img height="175em" src="https://github-readme-streak-stats.herokuapp.com/?user=KevinDarrell&hide_border=false&border=fafafa&background=0a0a0a&stroke=fafafa&ring=fafafa&fire=fafafa&currStreakLabel=fafafa&sideLabels=b3b3b3&dates=808080&currStreakNum=ffffff&sideNums=ffffff" alt="streak" />
+</div>
 
-<img src="https://github-profile-trophy.vercel.app/?username=KevinDarrell&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KevinDarrell&bg_color=0a0a0a&color=fafafa&line=fafafa&point=ffffff&area=true&area_color=1f1f1f&title_color=fafafa&hide_border=false&border_color=fafafa&custom_title=CONTRIBUTION%20GRAPH" alt="activity graph" width="100%" />
+
+<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════
-     CONTRIBUTION SNAKE  —  needs the GitHub Action (see SETUP.md). Monochrome.
+     ACTIVITY  ·  contribution snake (needs the GitHub Action — see SETUP.md)
      ══════════════════════════════════════════════════════════════════ -->
 
-## ▸ THE SNAKE EATS MY COMMITS
+## `04` &nbsp; THE SNAKE EATS MY COMMITS
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake.svg" width="100%" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/output/github-snake.svg" width="100%" />
+  </picture>
+</div>
+
+<br/>
 
 <!-- ══════════════════════════════════════════════════════════════════
-     CONNECT  —  ✏️ replace YOUR-LINKEDIN with your real handle.
+     CONNECT  ·  ✏️ replace YOUR-LINKEDIN with your real handle
      ══════════════════════════════════════════════════════════════════ -->
 
-## ▸ CONNECT
+## `05` &nbsp; CONNECT
 
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">
   <img src="https://img.shields.io/badge/LINKEDIN-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=fafafa" alt="linkedin" />
@@ -95,9 +124,7 @@ const kevin = {
 
 <br/><br/>
 
-```
-┌──────────────────────────────────────────────┐
-│  > thanks for stopping by.                     │
-│  > let's build something that thinks. ▮        │
-└──────────────────────────────────────────────┘
-```
+<!-- ══════════════════════════════════════════════════════════════════
+     FOOTER  ·  custom hand-built SVG (assets/footer.svg)
+     ══════════════════════════════════════════════════════════════════ -->
+<img src="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/footer.svg" alt="Let's build something that thinks." width="100%" />
