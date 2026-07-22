@@ -14,12 +14,7 @@
 
 ### stack
 
-```text
-lang     typescript · javascript · python · go
-back     node · express · nestjs · graphql
-front    react · next · tailwind
-infra    postgres · mongo · redis · docker · aws · linux
-```
+<img src="https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/stack.svg" alt="Stack — lang: typescript · javascript · python · go / back: node · express · nestjs · graphql / front: react · next · tailwind / infra: postgres · mongo · redis · docker · aws · linux" width="100%" />
 
 ---
 
@@ -37,7 +32,7 @@ infra    postgres · mongo · redis · docker · aws · linux
 
 ### connect
 
-`❯ ./connect` → [linkedin](https://www.linkedin.com/in/kevin-darrell/) · [email](mailto:mkevindarrell1207@gmail.com) · [github](https://github.com/KevinDarrell)
+[linkedin.com/in/kevin-darrell](https://www.linkedin.com/in/kevin-darrell/) &nbsp;·&nbsp; [mkevindarrell1207@gmail.com](mailto:mkevindarrell1207@gmail.com) &nbsp;·&nbsp; [github.com/KevinDarrell](https://github.com/KevinDarrell)
 
 <br/>
 

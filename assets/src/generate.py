@@ -89,6 +89,37 @@ footer = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 96" width=
 </svg>
 '''
 
+# ---- stack card (SVG so the green labels actually render on GitHub) ----
+STACK = [
+    ("lang",  ["typescript", "javascript", "python", "go"]),
+    ("back",  ["node", "express", "nestjs", "graphql"]),
+    ("front", ["react", "next", "tailwind"]),
+    ("infra", ["postgres", "mongo", "redis", "docker", "aws", "linux"]),
+]
+def _val(items):
+    out = []
+    for i, it in enumerate(items):
+        if i: out.append('<tspan fill="#5a636f"> · </tspan>')
+        out.append('<tspan fill="#e6edf3">%s</tspan>' % it)
+    return ''.join(out)
+
+SY0, SSTEP, SFS = 56, 33, "15.5"
+SH = SY0 + (len(STACK)-1)*SSTEP + 30
+srows = "\n".join(
+    '  <g opacity="0"><animate attributeName="opacity" values="0;1" begin="%.2fs" dur="0.5s" fill="freeze"/>'
+    '<text x="44" y="%d" font-size="%s"><tspan fill="#7ee787">%s</tspan></text>'
+    '<text x="150" y="%d" font-size="%s">%s</text></g>'
+    % (0.15 + i*0.12, SY0 + i*SSTEP, SFS, lbl, SY0 + i*SSTEP, SFS, _val(items))
+    for i, (lbl, items) in enumerate(STACK))
+
+stack = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 {SH}" width="900" height="{SH}" role="img" aria-label="Tech stack — lang: typescript javascript python go; back: node express nestjs graphql; front: react next tailwind; infra: postgres mongo redis docker aws linux">
+  <defs><style>text{{font-family:{MONO};}}</style></defs>
+  <rect x="1" y="1" width="898" height="{SH-2}" rx="10" fill="#0b0e14" stroke="#21262d" stroke-width="1"/>
+{srows}
+</svg>
+'''
+
 open(os.path.join(D, '..', 'header.svg'), 'w', encoding='utf-8').write(header)
 open(os.path.join(D, '..', 'footer.svg'), 'w', encoding='utf-8').write(footer)
-print("regenerated ../header.svg (%d art rows, H=%d) and ../footer.svg" % (len(art), H))
+open(os.path.join(D, '..', 'stack.svg'), 'w', encoding='utf-8').write(stack)
+print("regenerated ../header.svg (%d rows, H=%d), ../footer.svg, ../stack.svg (H=%d)" % (len(art), H, SH))
