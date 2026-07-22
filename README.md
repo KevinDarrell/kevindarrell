@@ -32,7 +32,7 @@
 
 ### connect
 
-[linkedin.com/in/kevin-darrell](https://www.linkedin.com/in/kevin-darrell/) &nbsp;·&nbsp; [mkevindarrell1207@gmail.com](mailto:mkevindarrell1207@gmail.com) &nbsp;·&nbsp; [github.com/KevinDarrell](https://github.com/KevinDarrell)
+[![linkedin](https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/linkedin.svg)](https://www.linkedin.com/in/kevin-darrell/) &nbsp; [![email](https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/email.svg)](mailto:mkevindarrell1207@gmail.com) &nbsp; [![github](https://raw.githubusercontent.com/KevinDarrell/KevinDarrell/main/assets/github.svg)](https://github.com/KevinDarrell)
 
 <br/>
 
